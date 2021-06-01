@@ -1,8 +1,8 @@
 library(rlist)
-folder_name <- "Data test"
-setwd(folder_name)
 
 load("init_file_list.RData")
+setwd("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/Data test")
+
 file_list <- list.files(pattern = "*.*")
 
 if(!identical(setdiff(file_list, init_file_list),character(0))){
@@ -13,6 +13,9 @@ if(!identical(setdiff(file_list, init_file_list),character(0))){
      test_1st_binded <- mapply(cbind, test_1st, "ID"=ID, SIMPLIFY=F)
      test_1st_binded <- list.rbind(test_1st_binded)
      init_file_list <- file_list
+     setwd("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/init")
      save(init_file_list, file = "init_file_list.RData")
 } else
      print("no new files found")
+
+#source()
