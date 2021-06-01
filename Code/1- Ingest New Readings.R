@@ -15,7 +15,6 @@ if(!identical(setdiff(file_list, init_file_list),character(0))){
      init_file_list <- file_list
      setwd("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/init")
      save(init_file_list, file = "init_file_list.RData")
+     source("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/Code/2- Transform - Overlapping Windows.R")
 } else
      print("no new files found")
-
-#source()

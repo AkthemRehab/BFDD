@@ -38,4 +38,4 @@ for (i in 1:length(test)){
 
 PCA_t_test <- lapply(t_test, function(x)lapply(x, prcomp, center = T, scale. = T))
 
-#source()
+source("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/Code/4- Transform - 10PCs 1DF.R")
