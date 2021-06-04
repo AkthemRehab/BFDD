@@ -1,0 +1,12 @@
+path:
+- data.csv
+- data.rds
+rows: 6
+cols: 2
+columns:
+  Results: numeric
+  Z: numeric
+type: table
+filenames:
+  data.csv: data.csv
+  data.rds: data.rds
