@@ -1,7 +1,3 @@
-- path: init-file-list
-  name: init-file-list
-  extension: zip
-  type: files
 - path: Results-DF
   name: Results-DF
   rows: 6
