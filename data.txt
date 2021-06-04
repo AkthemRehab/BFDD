@@ -6,8 +6,3 @@
   name: Results
   extension: ''
   type: files
-- path: iris
-  name: iris
-  rows: 150
-  cols: 5
-  type: table
