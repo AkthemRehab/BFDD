@@ -9,6 +9,6 @@
   type: table
 - path: Results
   name: Results
-  rows: 6
+  rows: 0
   cols: 1
   type: table
