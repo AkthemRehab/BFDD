@@ -1,12 +1,14 @@
-- path: init_file_list
-  name: init_file_list
-  extension: ''
-  type: files
 - path: Results
   name: Results
-  rows: 0
+  rows: 7
   cols: 1
   type: table
 - path: init-file-list
   name: init-file-list
-  type: default
+  extension: zip
+  type: files
+- path: Results-DF
+  name: Results-DF
+  rows: 7
+  cols: 2
+  type: table
