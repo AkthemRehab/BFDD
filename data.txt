@@ -6,10 +6,6 @@
 - path: init-file-list
   name: init-file-list
   type: default
-- path: 2003_10_22_12_06
-  name: 2003_10_22_12_06
-  extension: zip
-  type: files
 - path: Results-DF
   name: Results-DF
   rows: 6
