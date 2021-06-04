@@ -1,4 +1,4 @@
-path: []
-extension: zip
-type: files
-filenames: {}
+path: data.rds
+type: default
+filenames:
+  data.rds: data.rds
