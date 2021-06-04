@@ -19,12 +19,11 @@ for(n in 1:length(temp)){
                                          gaussian(), gaussian(), gaussian(), gaussian(), gaussian(), gaussian(), 
                                          gaussian(), gaussian()))
      Set_Pars <- setpars(States_3_OM, getpars(Fit_3_States))
-     Results[nrow(Results)+1,] <- logLik(Set_Pars)
+     Results[nrow(Results)+1,] <- as.numeric(logLik(Set_Pars))
 }
 
-setwd("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/init")
-pin(Results, board = "GitHub-BFDD")
+pin(Results, "Results", board = "GitHub-BFDD")
 
 Results_DF <- as.data.frame(Results)
 Results_DF$Z <- (Results_DF$Results - u)/sd
-pin(Results_DF, board = "GitHub-BFDD")
+pin(Results_DF, "Results-DF", board = "GitHub-BFDD")
