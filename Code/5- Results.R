@@ -1,6 +1,11 @@
+#mean and standard deviation are obtained from the training data
+#mean and SD 
+u <- -29764.73
+sd <- 463.4977
+
 library(depmixS4)
 load("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/init/Fit_3_States.RData")
-load("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/init/Results.csv")
+load("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/init/Results.RData")
 
 for(n in 1:length(temp)){
      online_range <- (1+((n-1)*625)):(n*625)
@@ -20,5 +25,5 @@ setwd("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/
 save(Results, file="Results.RData")
 
 Results_DF <- as.data.frame(Results)
-Results_DF$Z <- (Results_DF$Results - u)/sd
-Results_DF$Threshold <- -3
+#Results_DF$Z <- (Results_DF$Results - u)/sd
+#Results_DF$Threshold <- -3
