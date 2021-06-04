@@ -8,5 +8,6 @@
   type: files
 - path: iris
   name: iris
-  extension: ''
-  type: files
+  rows: 150
+  cols: 5
+  type: table
