@@ -1,6 +1,6 @@
 - path: Results
   name: Results
-  rows: 0
+  rows: 6
   cols: 1
   type: table
 - path: init-file-list
