@@ -1,8 +1,7 @@
 - path: Results
   name: Results
-  rows: 0
-  cols: 1
-  type: table
+  extension: ''
+  type: files
 - path: init-file-list
   name: init-file-list
   type: default
