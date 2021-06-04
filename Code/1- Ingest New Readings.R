@@ -1,12 +1,14 @@
 library(rlist)
+library(pins)
+board_register_github(name = "GitHub-BFDD", repo = "AkthemRehab/BFDD", branch = "main", token = "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")
 
 init_file_list <- pin_get("init-file-list", board = "GitHub-BFDD")
 Results <- pin_get("Results", board = "GitHub-BFDD")
 
 setwd("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/Data test")
-file_list <- list.files(pattern = "*.*")
+file_list <- data.frame(file_list=list.files(pattern = "*.*"))
 
-if(!identical(setdiff(file_list, init_file_list),character(0))){
+if(!identical(dim(setdiff(file_list, init_file_list))[1],as.integer(0))){
      temp <- setdiff(file_list, init_file_list)
      test_1st <- lapply(temp, read.delim, header = F, colClasses = c("NULL", "NULL", "NULL", "NULL", "NULL", 
                                                                      "NULL", NA, NA))
