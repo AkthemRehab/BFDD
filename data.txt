@@ -1,7 +1,3 @@
-- path: init_file_list
-  name: init_file_list
-  extension: ''
-  type: files
 - path: Results
   name: Results
   rows: 0
