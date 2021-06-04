@@ -9,6 +9,6 @@
   type: files
 - path: Results-DF
   name: Results-DF
-  rows: 6
+  rows: 7
   cols: 2
   type: table
