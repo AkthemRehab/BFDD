@@ -1,4 +1,11 @@
-path: []
-extension: ''
-type: files
-filenames: {}
+path:
+- data.csv
+- data.rds
+rows: 0
+cols: 1
+columns:
+  Results: numeric
+type: table
+filenames:
+  data.csv: data.csv
+  data.rds: data.rds

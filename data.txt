@@ -4,5 +4,6 @@
   type: files
 - path: Results
   name: Results
-  extension: ''
-  type: files
+  rows: 0
+  cols: 1
+  type: table
