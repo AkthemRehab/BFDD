@@ -10,6 +10,6 @@
   type: table
 - path: Results-DF
   name: Results-DF
-  rows: 21
+  rows: 1
   cols: 2
   type: table
