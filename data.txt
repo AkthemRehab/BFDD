@@ -5,7 +5,8 @@
   type: table
 - path: init-file-list
   name: init-file-list
-  type: default
+  extension: zip
+  type: files
 - path: Results-DF
   name: Results-DF
   rows: 7
