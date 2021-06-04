@@ -1,4 +1,6 @@
 library(depmixS4)
+load("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/init/Fit_3_States.RData")
+load("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/init/Results.csv")
 
 for(n in 1:length(temp)){
      online_range <- (1+((n-1)*625)):(n*625)
@@ -11,11 +13,11 @@ for(n in 1:length(temp)){
                                          gaussian(), gaussian(), gaussian(), gaussian(), gaussian(), gaussian(), 
                                          gaussian(), gaussian()))
      Set_Pars <- setpars(States_3_OM, getpars(Fit_3_States))
-     Results <- c(Results, logLik(Set_Pars))
+     Results[nrow(Results)+1,] <- logLik(Set_Pars)
 }
 
 setwd("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/init")
-write.csv(Results, file="Results.csv")
+save(Results, file="Results.RData")
 
 Results_DF <- as.data.frame(Results)
 Results_DF$Z <- (Results_DF$Results - u)/sd
