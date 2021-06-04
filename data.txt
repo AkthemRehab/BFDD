@@ -1,8 +1,3 @@
-- path: Results
-  name: Results
-  rows: 6
-  cols: 1
-  type: table
 - path: init-file-list
   name: init-file-list
   extension: zip
