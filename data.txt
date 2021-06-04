@@ -2,3 +2,7 @@
   name: init_file_list
   extension: ''
   type: files
+- path: Results
+  name: Results
+  extension: ''
+  type: files
