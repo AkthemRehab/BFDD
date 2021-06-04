@@ -2,6 +2,7 @@
 #mean and SD 
 u <- -29764.73
 sd <- 463.4977
+Threshold <- -3
 
 library(depmixS4)
 load("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/init/Fit_3_States.RData")
