@@ -1,6 +1,6 @@
 library(rlist)
 
-load("init_file_list.RData")
+load("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/init/init_file_list.RData")
 setwd("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/Data test")
 
 file_list <- list.files(pattern = "*.*")

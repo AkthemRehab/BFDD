@@ -42,4 +42,4 @@ for (i in 1: length(PCA_t_test_X_10V)){
 #rbinding all the runs in one data frame for the HMM
 PCA_t_test_X_10V_1DF <- list.rbind(PCA_t_test_X_10V)
 
-#source()
+source("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/Code/5- Results.R")
