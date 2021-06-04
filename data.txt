@@ -7,3 +7,8 @@
   rows: 6
   cols: 2
   type: table
+- path: Results
+  name: Results
+  rows: 6
+  cols: 1
+  type: table
