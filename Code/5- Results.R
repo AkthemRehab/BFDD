@@ -6,7 +6,7 @@ Threshold <- -3
 
 library(depmixS4)
 load("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/init/Fit_3_States.RData")
-load("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/init/Results.RData")
+Results <- pin_get("Results", board = "GitHub-BFDD")
 
 for(n in 1:length(temp)){
      online_range <- (1+((n-1)*625)):(n*625)
@@ -23,8 +23,8 @@ for(n in 1:length(temp)){
 }
 
 setwd("D:/Documents/One Drive/OneDrive - Alexandria University/IMS Bearing/BFDD/init")
-save(Results, file="Results.RData")
+pin(Results, board = "GitHub-BFDD")
 
 Results_DF <- as.data.frame(Results)
-#Results_DF$Z <- (Results_DF$Results - u)/sd
-#Results_DF$Threshold <- -3
+Results_DF$Z <- (Results_DF$Results - u)/sd
+pin(Results_DF, board = "GitHub-BFDD")
