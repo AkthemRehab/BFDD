@@ -1,6 +1,6 @@
 - path: Results
   name: Results
-  rows: 7
+  rows: 0
   cols: 1
   type: table
 - path: Results-DF
