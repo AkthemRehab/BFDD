@@ -8,3 +8,6 @@
   rows: 1
   cols: 2
   type: table
+- path: init-file-list
+  name: init-file-list
+  type: default
