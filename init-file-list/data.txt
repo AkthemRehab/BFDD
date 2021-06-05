@@ -1,11 +1,4 @@
-path:
-- data.csv
-- data.rds
-rows: 7
-cols: 1
-columns:
-  file_list: character
-type: table
+path: data.rds
+type: default
 filenames:
-  data.csv: data.csv
   data.rds: data.rds
