@@ -13,6 +13,9 @@ taskscheduler_create(taskname = "Ingest-New-Readings", rscript = myscript,
 #delete the task
 taskscheduler_delete(taskname = "Ingest-New-Readings")
 
+#Pin the model
+#pin(Fit_3_States, board = "folder")
+
 init_file_list <- NULL
 Results <- data.frame(Results=numeric(), stringsAsFactors = F)
 
