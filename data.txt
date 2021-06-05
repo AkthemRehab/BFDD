@@ -5,7 +5,7 @@
   type: table
 - path: Results-DF
   name: Results-DF
-  rows: 15
+  rows: 8
   cols: 2
   type: table
 - path: init-file-list
