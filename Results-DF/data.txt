@@ -1,7 +1,7 @@
 path:
 - data.csv
 - data.rds
-rows: 1
+rows: 7
 cols: 2
 columns:
   Results: numeric
