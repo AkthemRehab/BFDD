@@ -3,11 +3,13 @@
   rows: 0
   cols: 1
   type: table
-- path: init-file-list
-  name: init-file-list
-  type: default
 - path: Results-DF
   name: Results-DF
-  rows: 21
+  rows: 1
   cols: 2
+  type: table
+- path: init-file-list
+  name: init-file-list
+  rows: 7
+  cols: 1
   type: table
