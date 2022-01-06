@@ -1,4 +1,10 @@
-path: data.rds
-type: default
+path:
+- data.csv
+- data.rds
+rows: 0
+cols: 0
+columns: {}
+type: table
 filenames:
+  data.csv: data.csv
   data.rds: data.rds

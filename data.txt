@@ -10,4 +10,6 @@
   type: table
 - path: init-file-list
   name: init-file-list
-  type: default
+  rows: 0
+  cols: 0
+  type: table
