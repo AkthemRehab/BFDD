@@ -1,9 +1,10 @@
 path:
 - data.csv
 - data.rds
-rows: 0
-cols: 0
-columns: {}
+rows: 8
+cols: 1
+columns:
+  file_list: character
 type: table
 filenames:
   data.csv: data.csv
