@@ -10,6 +10,6 @@
   type: table
 - path: init-file-list
   name: init-file-list
-  rows: 21
+  rows: 22
   cols: 1
   type: table
